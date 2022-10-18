@@ -9,6 +9,7 @@ namespace Day5Assignment
         {
             Day5Problems num = new Day5Problems();
             num.flipCoin();
+            num.Leap_Year();
         }
     }
 }
