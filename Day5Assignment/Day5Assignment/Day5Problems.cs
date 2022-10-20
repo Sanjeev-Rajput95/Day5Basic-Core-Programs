@@ -128,5 +128,21 @@ namespace Day5Assignment
             Console.WriteLine("Swapping of number is  : " + num1 + " " + num2);
 
         }
+
+        public void Check_Even_Or_Odd ()
+        {
+            int number;
+            Console.WriteLine("Enter the Number to check Even or Odd : ");
+            number = int.Parse(Console.ReadLine());
+            if(number % 2 == 0 )
+            {
+                Console.WriteLine("Number is Even");
+            }
+            else
+            {
+                Console.WriteLine("Number is Odd");
+            }
+
+        }
     }
 }

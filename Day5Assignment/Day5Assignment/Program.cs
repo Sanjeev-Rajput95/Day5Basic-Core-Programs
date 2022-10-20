@@ -14,6 +14,7 @@ namespace Day5Assignment
             num.Harmonic_Number(8);
             num.Factor();
             num.Swap_Two_Number();
+            num.Check_Even_Or_Odd();
         }
     }
 }
