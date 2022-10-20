@@ -13,6 +13,7 @@ namespace Day5Assignment
             num.Power_Of_2();
             num.Harmonic_Number(8);
             num.Factor();
+            num.Swap_Two_Number();
         }
     }
 }

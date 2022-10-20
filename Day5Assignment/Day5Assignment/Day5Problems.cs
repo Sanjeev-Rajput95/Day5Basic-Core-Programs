@@ -108,13 +108,25 @@ namespace Day5Assignment
             {
                 if (n % i == 0)
                 {
-                    Console.Write("Number is not Prime.");
+                    Console.WriteLine("Number is not Prime.");
                     flag = 1;
                     break;
                 }
             }
             if (flag == 0)
-                Console.Write("Number is Prime.");
+                Console.WriteLine("Number is Prime.");
+        }
+
+        public void Swap_Two_Number()
+        {
+            int num1 = 12;
+            int num2 = 23;
+            int temp;
+            temp = num1;
+            num1 = num2;
+            num2 = temp;
+            Console.WriteLine("Swapping of number is  : " + num1 + " " + num2);
+
         }
     }
 }
