@@ -11,6 +11,8 @@ namespace Day5Assignment
             num.flipCoin();
             num.Leap_Year();
             num.Power_Of_2();
+            num.Harmonic_Number(8);
+            num.Factor();
         }
     }
 }
